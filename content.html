@@ -1,0 +1,78 @@
+
+<!--bootstrap-->
+
+ <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <style>
+       body{
+           background-color:pink;
+           text-align: center;
+           color:brown;
+           font-style: italic;
+       }
+       .h1{
+          color:black;
+          text-align: center;
+          font-style:normal;
+       }
+       #list{
+         text-align: center;
+         color:blue
+       }
+   </style>
+
+  </head>
+  <body>
+    <h2 class="h1">WE OFFER</h2>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <h2>COFFEE</h2>
+            <img src="https://image.freepik.com/free-vector/twelve-types-coffee_23-2147568869.jpg" class="w-5"   alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <h2>STARTERS</h2>
+            <ul id="list">
+              <li>Tikkis</li>
+              <li>Bread rolls</li>
+              <li>Momos</li>
+              <li>Kofta </li>
+              <li>Panner Tikka</li>
+            </ul>
+            <img src="https://thumbs.dreamstime.com/b/silver-plate-full-appetizers-finger-food-starters-party-crispy-rolls-fried-cheese-sticks-sticky-fingers-different-dips-78920595.jpg" class="w-5" alt="...">
+          </div>
+          <div class="carousel-item">
+            <h2>MILKSHAKES</h2>
+            <ul id="list">
+              <li>Chocolate</li>
+              <li>Vanilla</li>
+              <li>Strawberry</li>
+              <li>Banana</li>
+              <li>Mocha</li>
+            </ul>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/b4/c7/1d/milkshakes-yummmmm.jpg" class=" w-5" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </body>
+</html>
